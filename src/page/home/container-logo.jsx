@@ -3,5 +3,5 @@ export const ContainerLogo = styled.a`
   display: flex;
   flex-direction: row;
   gap: 12px;
-  max-width: 300px;
+  align-items: center;
 `;

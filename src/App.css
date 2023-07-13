@@ -1,0 +1,29 @@
+.container {
+    display: inline-block;
+}
+
+.writter {
+    width: 0;
+    color: #d0d2db;
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(20, end) forwards, blink .8s infinite;
+    border-right: 5px solid rgb(9, 220, 125);
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: rgb(24, 24, 24);
+    }
+  }

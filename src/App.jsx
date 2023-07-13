@@ -18,7 +18,11 @@ function App() {
         </List>
       </Header>
       <Container>
-        <div>a</div>
+        <div className='container'>
+          <h2 className='writter'>
+            FREELANCES DE SOFTWARE
+          </h2>  
+        </div>
       </Container>
     </>
   )
